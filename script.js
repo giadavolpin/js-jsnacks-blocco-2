@@ -25,7 +25,7 @@ if( num % 2 == 0 )/* resto della divisione è zero allora è vero */{
     console.log(num)
     document.innerHtml(div) 
 } else {
-    console.log(num + 1)
+    console.log(num i++)
 }
 
 }
