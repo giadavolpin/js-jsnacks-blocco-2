@@ -14,20 +14,27 @@ Crea due array che hanno un numero di elementi diversi.  Aggiungi elementi all�
 3. se dispari stampa numero dopo
 */
 
-const numero = document.getElementById('numero').value 
+ 
 const bottone = document.getElementById('bottone')
-bottone.addEventListener('onclick', 'IsNotUneven')
-function IsNotUneven(numero)
-{
-    if (IsNotUneven(numero) == true)
-    {
-        risultato.innerText = "Numero pari";
-    }
-    else
-    {
-        risultato.innerText = "Numero dispari";
-    }
+const numero = document.getElementById('numero')
+bottone.addEventListener('click', risultato)
+function risultato() {
+    let num = parseInt(numero.value); 
+
+if( num % 2 == 0 )/* resto della divisione è zero allora è vero */{
+    console.log(num)
+    document.innerHtml(div) 
+} else {
+    console.log(num + 1)
 }
+
+}
+
+
+
+
+
+
 
 /* Snack2 
 1.nomi random
