@@ -16,14 +16,25 @@ Crea due array che hanno un numero di elementi diversi.  Aggiungi elementi allâ€
 
 const numero = document.getElementById('numero').value 
 const bottone = document.getElementById('bottone')
+bottone.addEventListener('onclick', 'IsNotUneven')
 function IsNotUneven(numero)
 {
     if (IsNotUneven(numero) == true)
     {
-        alert("Numero pari");
+        risultato.innerText = "Numero pari";
     }
     else
     {
-        alert("Numero dispari");
+        risultato.innerText = "Numero dispari";
     }
 }
+
+/* Snack2 
+1.nomi random
+2.cognomi random
+3. lista falsa con nomi e cognomi random
+*/
+
+
+
+
