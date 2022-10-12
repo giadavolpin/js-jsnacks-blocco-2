@@ -22,9 +22,9 @@ function risultato() {
 
 if( num % 2 == 0 ) /* resto della divisione è zero allora è vero */ {
     console.log(num)
-    document.innerHtml(div) 
-} else {
-    console.log(num i++)
+ 
+} else num++; {
+    console.log(num)
 }
 } 
 
