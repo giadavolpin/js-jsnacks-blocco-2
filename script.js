@@ -14,21 +14,19 @@ Crea due array che hanno un numero di elementi diversi.  Aggiungi elementi all�
 3. se dispari stampa numero dopo
 */
 
-/*  
 const bottone = document.getElementById('bottone')
 const numero = document.getElementById('numero')
 bottone.addEventListener('click', risultato)
 function risultato() {
     let num = parseInt(numero.value); 
 
-if( num % 2 == 0 ) resto della divisione è zero allora è vero {
+if( num % 2 == 0 ) /* resto della divisione è zero allora è vero */ {
     console.log(num)
     document.innerHtml(div) 
 } else {
     console.log(num i++)
 }
-
-} */
+} 
 
 
 
