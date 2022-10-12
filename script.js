@@ -14,21 +14,21 @@ Crea due array che hanno un numero di elementi diversi.  Aggiungi elementi all�
 3. se dispari stampa numero dopo
 */
 
- 
+/*  
 const bottone = document.getElementById('bottone')
 const numero = document.getElementById('numero')
 bottone.addEventListener('click', risultato)
 function risultato() {
     let num = parseInt(numero.value); 
 
-if( num % 2 == 0 )/* resto della divisione è zero allora è vero */{
+if( num % 2 == 0 ) resto della divisione è zero allora è vero {
     console.log(num)
     document.innerHtml(div) 
 } else {
     console.log(num i++)
 }
 
-}
+} */
 
 
 
@@ -41,6 +41,22 @@ if( num % 2 == 0 )/* resto della divisione è zero allora è vero */{
 2.cognomi random
 3. lista falsa con nomi e cognomi random
 */
+
+
+
+
+
+/* Snack3 
+1. Crea un array di numeri interi 
+2. fai la somma di tutti gli elementi che sono in posizione(indice) dispari
+*/
+
+const i = [10, 5, 50, 2, 30, 24, 15, 75];
+for (let i = 0; i < i.length; i++){
+    console.log(i)
+}
+
+
 
 
 
