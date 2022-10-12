@@ -35,26 +35,21 @@ if( num % 2 == 0 ) */ /* resto della divisione è zero allora è vero */ {
 
 
 /* Snack2 
-1.nomi random
-2.cognomi random
+1.nomi 
+2.cognomi 
 3. lista falsa con nomi e cognomi random
 */
 
-    let name = [ "marco", "mattia", "gino", "armando", "stefano", "massiliano"
-        ];
-    let nomi = Math.floor(Math.random()*name.length);
-    document.innerHtml(stringhe[nomi]);
-
+    let name = [ "marco", "mattia", "gino", "armando", "stefano", "massiliano"];
     let cognomi = [ "volpin", "pace", "giorgetti", "boldrin", "manenti", "felice"]
-    let cogn =  Math.floor(Math.random()*cognomi.length);
-    document.innerHtml(stringhe[cognomi]);
-    
-    const name = document.getElementById(name)
-    const cognome = document.getElementById(cognome)
-    const lista = document.getElementById(lista)
-    for lista ( let name = 0, cognomi = 0 ; nome + cognomi; nome++ cognomi++){
-       document.innerHtml(lista);
-    }
+  
+
+    for (let i = 0; i < 10; i++){
+        let name = Math.floor(Math.random()*i.length);
+        let cognomi = Math.floor(Math.random()*i.length);  
+     }
+     const lista = document.innerHtml(lista);
+   
 
 /* Snack3 
 1. Crea un array di numeri interi 
@@ -62,6 +57,6 @@ if( num % 2 == 0 ) */ /* resto della divisione è zero allora è vero */ {
 */
 
 /* const i = [10, 5, 50, 2, 30, 24, 15, 75];
-for (let i = 0; i < i.length; i++){
+for (let i = 0; i < 10; i++){
     console.log(i)
-} */
+} */}
