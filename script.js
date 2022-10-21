@@ -39,12 +39,11 @@ e da queste vuole generare una falsa lista di invitati con nome e cognome.
 2. faccio un ciclo random dove mischia i nomi e cognomi
 3. prendo i nomi e i cognomi e li metto in html (id= lista)
 */
-let listanome = document.getElementById('listanome')
+
+/* let listanome = document.getElementById('listanome')
 let listacognome = document.getElementById('listacognome')
 let name = [ "marco", "mattia", "gino", "armando", "stefano", "massiliano"];
 let cognomi = [ "volpin", "chiesa", "giorgetti", "boldrin", "manenti", "felice"]
-  
-
 
     for (let i = 0; i < 10; i++){
         let numeroRandomNome = Math.floor(Math.random()*name.length);
@@ -54,19 +53,35 @@ let cognomi = [ "volpin", "chiesa", "giorgetti", "boldrin", "manenti", "felice"]
         listacognome.innerHtml = cognomi[numeroRandomCognome]    
     }
     console.log(name)
-    console.log(cognomi)
+    console.log(cognomi) */
+
+/* NON RIESCO A FARLO VENIRE FUORI NELLA PAGINA */
+
+
 
 
 /* Snack3 
+Crea un array di numeri interi e fai la somma di tutti gli elementi  
+che sono in posizione dispari.
+
+
 1. Crea un array di numeri interi 
 2. fai la somma di tutti gli elementi che sono in posizione(indice) dispari
 */
-/* 
-const i = [10, 5, 50, 2, 30, 24, 15, 75];
-for (let i = 0; i < 10; i++){
-    console.log(i)
-} 
 
+const i = [10, 5, 50, 2, 30, 24, 15, 75];
+
+
+for (let i = 0; i < 10; i++){
+   
+    if (i % 1 == 0) {
+      sommaDispari = i;
+    }
+  }
+  
+  console.log(sommaDispari);
+
+ /* DA FARE IL 3 XK NON VIENE */ 
 
 /* snack4 */
 
