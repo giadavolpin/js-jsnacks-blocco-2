@@ -10,29 +10,34 @@ Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti 
 
 
 /* Snack1 
-1. inserire un numero 
-2. se pari stampa numero
-3. se dispari stampa numero dopo
+Inserisci un numero, se è pari stampa il numero, 
+se è dispari stampa il numero successivo.
+
+1. Utente deve inserire un numero, quindi prendo quel num dall'HTML 
+2. se (if) pari stampa numero (console.log)
+3. se dispari stampa numero dopo (console.log)
 */
  
-const bottone = document.getElementById('bottone')
-const numero = document.getElementById('numero')
-bottone.addEventListener('click', risultato)
-function risultato() {
+const bottone = document.getElementById('bottone');
+const numero = document.getElementById('numero');
+bottone.addEventListener('click', function() {
     let num = parseInt(numero.value); 
-
-if( num % 2 == 0 ) /* resto della divisione è zero allora è vero */ {
-    console.log(num) 
-} else num++; {
-    console.log(num)
-}
-} 
+    if( num % 2 == 0 ) /* resto della divisione è zero allora è vero */ {
+        console.log(num) 
+    } else num++; {
+        console.log(num)
+    }
+});
 
 
 /* Snack2 
-1.nomi 
-2.cognomi 
-3. lista falsa con nomi e cognomi random
+Generatore di “nomi cognomi” casuali: il Grande Gatsby ha  una lista 
+di nomi e una lista di cognomi, 
+e da queste vuole generare una falsa lista di invitati con nome e cognome.
+
+1. creo 2 liste una di nomi e una cognomi 
+2. faccio un ciclo random dove mischia i nomi e cognomi
+3. prendo i nomi e i cognomi e li metto in html (id= lista)
 */
 
 let name = [ "marco", "mattia", "gino", "armando", "stefano", "massiliano"];
@@ -41,13 +46,14 @@ let cognomi = [ "volpin", "chiesa", "giorgetti", "boldrin", "manenti", "felice"]
 
     for (let i = 0; i < 10; i++){
         let name = Math.floor(Math.random()*name.length);
-        lista.innerHtml = name[randomname];
+    
         console.log(name[randomname])
        
         let cognomi = Math.floor(Math.random()*cognomi.length);  
      }
-    const lista = document.innerHtml(lista);
-   
+   // const listanome = document.innerHtml(lista);
+    listanome.innerHtml = name;
+    listacognome.innerHtml = cognomi
 
 /* Snack3 
 1. Crea un array di numeri interi 
